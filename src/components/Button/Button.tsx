@@ -5,6 +5,8 @@ interface ButtonProps {
 const Button = ({children} : ButtonProps) => {
   return (
     <>
+
+    <button>{children}</button>
     
     </>
   )
